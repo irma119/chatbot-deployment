@@ -1,52 +1,55 @@
-# Chatbot Deployment with Flask and JavaScript
+# Chatbot Deployment Unichat
 
-In this tutorial we deploy the chatbot I created in [this](https://github.com/python-engineer/pytorch-chatbot) tutorial with Flask and JavaScript.
+referensi [this](https://github.com/python-engineer/pytorch-chatbot) tutorial menggunakan Flask dan JavaScript.
 
-This gives 2 deployment options:
-- Deploy within Flask app with jinja2 template
-- Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
+Sebelumnya silahkan anda dowload package berikut:
+pip install flask
+pip install json
 
-## Initial Setup:
-This repo currently contains the starter files.
+## Setup di CMD:
+Silahkan buka cmd di laptop kalian dan activkan environment yang biasa di pakai untuk program misal "Python 3.10.9-bit"
 
-Clone repo and create a virtual environment
+Ikuti perintah berikut untuk mengaktifkan environment yang anda pakai
+"CATATAN SILAHKAN SESUAIKAN LOCAL DISK FOLDER YANG ANDA SIMPAN"
+disini saya menggunakan local disk F: dengan environment base miniconda
 ```
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
-$ cd chatbot-deployment
-$ python3 -m venv venv
-$ . venv/bin/activate
+$ F:
+$ cd F:\Kampus Merdeka AI\Final Project\chatbot-deployment-main
+$ conda activate base 
 ```
-Install dependencies
+Berikut jika aktivasi environment berhasil
+(base) F:\Kampus Merdeka AI\Final Project\chatbot-deployment-main>
+
+Selanjutnya Install package flask
 ```
-$ (venv) pip install Flask torch torchvision nltk
+$ (base)pip install Flask torch torchvision nltk
 ```
-Install nltk package
+Setelah selesai, Install nltk package
 ```
-$ (venv) python
+$ (base) python
 >>> import nltk
 >>> nltk.download('punkt')
+>>> ctrl+z/quit
 ```
-Modify `intents.json` with different intents and responses for your Chatbot
+Jika berhasil silahkan ctrl+z untuk keluar dari program tersebut
+Running train.py untuk melihat nilai akurasi model
+```
+$ (base) python train.py
+```
+pada proses ini data.pth akan otomatis tersimpan untuk mengetes chatbot bisa digunakan 
+silahkan running chat.py
+```
+$ (base) python chat.py
+```
+Setelah selesai silahkan buka folder sudah di download di visual code  
 
-Run
-```
-$ (venv) python train.py
-```
-This will dump data.pth file. And then run
-the following command to test it in the console.
-```
-$ (venv) python chat.py
-```
+![Capture](https://github.com/irma119/chatbot-deployment-unichat/assets/110200862/a446405c-62dd-4e94-b6f9-20ec34bb23f8) ini hanya sebagai contoh
 
-Now for deployment follow my tutorial to implement `app.py` and `app.js`.
+silahkan running app.py dan ketikan flask running di terminal 
+![Capture-1](https://github.com/irma119/chatbot-deployment-unichat/assets/110200862/ec0b0464-4fc5-425e-97fd-94a01e8ca593)
+silahkan klik link tersebut untuk melihat tampilan aplikasi 
+Note: "DIHARAPKAN SEMUA FILE DIBUAT SATU FOLDER JIKA INGIN MENDOWNLOAD FOLDER DIATAS SILAHKAN DI BAGIAN POJOK KANAN PILIH DOWNLOAD ZIP"
 
-## Watch the Tutorial
+## Jika ingin mengetahui lebih dalam silahkan tonton video berikut 
 [![Alt text](https://img.youtube.com/vi/a37BL0stIuM/hqdefault.jpg)](https://youtu.be/a37BL0stIuM)  
 [https://youtu.be/a37BL0stIuM](https://youtu.be/a37BL0stIuM)
-
-## Note
-In the video we implement the first approach using jinja2 templates within our Flask app. Only slight modifications are needed to run the frontend separately. I put the final frontend code for a standalone frontend application in the [standalone-frontend](/standalone-frontend) folder.
-
-## Credits:
-This repo was used for the frontend code:
-https://github.com/hitchcliff/front-end-chatjs
