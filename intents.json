@@ -1,0 +1,717 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Halo! Selamat Datang di sistem informasi chatbot PMB Universitas Bhayangkara Jakarta Raya",
+        "Helo! Ini Unichat, ini adalah teman informasi Penerimaan Mahasiswa Baru Ubhara Jaya",
+        "Pagi! Ada yang bisa saya bantu ?",
+        "Siang! Silahkan mau tau informasi apa ?"
+      ]
+    },
+    {
+      "tag": "Unichat",
+      "patterns": [
+        "Apa itu Unichat?",
+        "Siapa Unichat?"
+      ],
+      "responses": [
+        "Unichat adalah aplikasi chatbot informasi tentang pendaftaran mahasiswa baru,biaya kuliah dan lain sebagainya di kampus Universitas Bhayangkara Jakarta Raya!",
+        "Unichat itu adalah teman informasi kamu tentang Penerimaan Mahasiswa Baru di kampus UBHARA JAYA!"
+      ]
+    },
+    {
+      "tag": "pencipta_unichat",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Uni, yang buat kamu siapa sih?",
+        "Siapa penciptamu, Uni?"
+      ],
+      "responses": [
+        "Unichat diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat Unichat dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "info_kampus",
+      "patterns":[
+        "Bagaimana deskripsi singkat tentang Universitas Bhayangkara Jakarta Raya ?",
+        "Apa itu kampus Universitas Bhayangkara Jakarta Raya ?",
+        "Universitas Bhayangkara Jakarta Raya",
+        "Tentang Ubhara jaya",
+        "Informasi seputar Universitas Bhayangkara Jakarta Raya"
+      ],
+      "responses" :[
+          "Universitas Bhayangkara Jakarta Raya (Ubhara Jaya) sebagai salah satu Perguruan Tinggi Swasta yang berada dibawah pembinaan Yayasan Brata Bhakti sebagai badan penyelenggaranya, berkewajiban mewujudkan tujuan pendidikan nasional dengan Visi dan Misi nya bagi mendukung keberhasilan tugas Kepolisian Negara Republik Indonesia khususnya dan pengembangan kualitas hidup bermasyarakat berbangsa dan bernegara pada umumnya."
+      ]
+    },
+    {
+      "tag": "info_kampus_lokasi",
+      "patterns": [
+        "Dimana lokasi universitas bhayangkara jakarta raya berada?",
+        "Lokasi Ubhara Jaya",
+        "Letak Universitas Bhayangkara Jakarta Raya",
+        "Berada dimana Ubhara jaya ini ?",
+        "Ada berapa kampus Ubhara Jaya ini ?",
+        "Dimana saja letak kampus tersebut ?"
+      ],
+      "responses" :["Universitas Bhayangkara Jakarta Raya terdapat 2 kampus dengan kampus 1 berada di Jl. Harsono RM No.67 Ragunan Pasar Minggu, Jakarta Selatan, DKI Jakarta 12550, Indonesia dan kampus 2 di Jl. Raya Perjuangan Bekasi Utara, Kota Bekasi, Jawa Barat 17121, Indonesia"]
+    },
+    {
+      "tag" : "info_kampus_akreditasi",
+      "patterns":[
+        "Apa akreditasi universitas bhayangkara jakarta raya ?",
+        "Akreditasi kampus",
+        "Bagaimana akreditasi Ubhara Jaya ini ?"
+      ],
+      "responses" :["Universitas Bhayangkara Jakarta raya terakteditasi B (Baik sekali)"
+      ]
+    },
+    {
+      "tag" :"info_kampus_prodi_diminati",
+      "patterns" :[
+        "Fakultas dan prodi apa yang paling banyak di minati universitas bhayangkara jakarta raya?",
+        "Fakulta apa yang paling diminati?",
+        "Prodi apa yang paling diminati?"
+      ],
+      "responses" :["Saat ini Fakultas Ekonomi dan Bisnis dengan Program Studi Manajemen,Fakultas Ilmu Komunikasi dengan Program Studi Ilmu Komunikasi, Fakultas Ilmu Komuter dengan program studi Infromatika dan Fakultas Hukum dengan Program studi Ilmu Hukum yang banyak diminati oleh mahasiswa baru"
+      ] 
+    },
+    {
+      "tag": "info_kampus_fasilitas",
+      "patterns" :[
+        "Fasilitas apa saja yang disediakan di kampus ini ?",
+        "Ada ruangan apa saja di kampus Ubhara Jaya?",
+        "Tersedia fasilitas apa?"
+      ],
+      "responses":["Fasilitas yang disediakan di Universitas Bhayangkara Jakarta Raya yaitu Auditorium, Perpustakaan Tanoto, Kantin, Laboratorium, Masjid, Lembaga lsp, Ruangan dosen, ruangan Fakultas,Klinik, Sarana Olahraga, Wifi, Ruangan ber-ac, Area Parkir"]
+    },
+    {
+      "tag": "info_kampus_beasiswa_prestasi",
+      "patterns" :[
+        "Apakah kampus ini dapat memberikan beasiswa bagi mahasiswa yang berprestasi ?",
+        "apakah ada beasiswa berprestasi?",
+        "beasiswa prestasi"
+      ],
+      "responses":["Bagi mahasiswa yang berprestasi akan mendapatkan beasiswa dari pihak kampus contoh yang sudah mendapatkan beasiswa tersebut yaitu atlet wushu bernama Edgar Xavier Marvello Mahasiswa Fakultas Pendidikan Kepelatihan Olahraga mendapatkan medali emas kejuaran dunia Wushu Taqlu 2022 ,cabang Wushu PON XX Papua dan medali emas Sea Games XXXII Kamboja Tahun 2023, Medali perak Cabang karate PON XX Papua Nadien Rizqi Athira dan Naila Rizki Athala dan juara 1 lomba Internasional Scientific Article atas nama Mita Setiani mahasiswa Fakultas Ilmu Pendidikan Program Studi PGSD 2018 dan Putri Ayu Agustina mahasiswa PGSD 2020"]
+    },
+    {
+      "tag": "info_kampus_beasiswa",
+      "patterns":[
+        "Apakah Universitas Bhayangkara Jakarta Raya menyediakan program beasiswa untuk mahasiswa baru?",
+        "beasiswa apa yang tersedia ?",
+        "beasiswa"
+      ],
+      "responses" :["Beasiswa yang tersedia di lingkungan Universitas Bhayangkara Jakarta Raya terdiri dari, Kartu Indonesia Pintar serta Beasiswa Pemkot Bekasi."]
+    },
+    {
+      "tag": "info_kampus_jenis_beasiswa",
+      "patterns" : [
+        "Apa saja jenis beasiswa yang tersedia untuk mahasiswa baru di universitas bhayangkara jakarta raya?",
+        "jenis beasiswa yang tersedia"
+      ],
+      "responses":["Untuk jenis Beasiswa di kampus ubhara ini ada KIPK(Kartu Indonesia Pintar Kuliah) yang bekerja sama dengan Pemerintah dan beasiswa Prestasi bagi mahasiswa yang berprestasi"]
+    },
+    {
+      "tag": "info_kampus_alur_daftar_beasiswa",
+      "patterns":[
+        "Bagaimana cara mengajukan beasiswa untuk mahasiswa baru di universitas bhayangkara jakarta raya?",
+        "Cara daftar beasiswa",
+        "Prosedur mendaftar beasiswa",
+        "apa saja syarat daftar beasiswa?"
+      ],
+      "responses":["Dengan mengajukan ke wakil dekan 3 di fakultas kemudian fakultas akan memberikan berkas ajuan kebiro kemahasiswaan dan akan di proses oleh biro kemahasiswaan"]
+    },
+    {
+      "tag" : "info_kampus_usia_daftar",
+      "patterns":[
+        "Apakah ada batasan usia untuk mendaftar di universitas bhayangkara jakarta raya?",
+        "Standar maksimal usia mendaftar di ubhara jaya",
+        "Apakah ada maksimal usia untuk mendaftar?",
+        "Apakah ada minimal usia untuk mendaftar?"
+      ],
+      "responses":["Untuk menjadi seorang mahasiswa baru di Universitas Bhayangkara Jakarta Raya tidak memiliki batasan usia,siapa pun disilahkan mendaftar"]
+    },
+    {
+      "tag": "info_kampus_perpus",
+      "patterns":[
+        "Apakah tersedia fasilitas perpustakaan yang lengkap bagi mahasiswa baru di universitas bhayangkara jakarta raya?",
+        "Apakah ada akses bagi mahasiswa baru untuk ke perpustakaan?"
+      ],
+      "responses":["Universitas Bhayangkara Jakarta Raya memiliki perpustakaan yang sudah terakreditasi A dengan menyediakan koleksi buku, jurnal dan skripsi yang terbaru dan terpercaya"]
+    },
+    {
+      "tag": "info_kampus_po_ukm",
+      "patterns":[
+        "Apakah universitas bhayangkara jakarta raya memiliki pusat olahraga dan unit kegiatan mahasiswa?",
+        "Apakah mahasiswa baru dapat mengakses fasilitas pusat olahraga?",
+        "Adakah pusat olahraga dan UKM di Ubhara Jaya?"
+      ],
+      "responses":["Universitas Bhayangkara Jakarta Raya memiliki beberapa Unit Kegiatan Mahasiswa yaitu UKM Seni dengan terdapat beberapa cabang yaitu Seni Tari, Seni Musik, Seni Rupa dan Seni Teater, UKM BI Corner, UKM Granat, UKM Wirausaha, Paduan Suara Mahasiswa Bharagita , Kapal baja, Lembaga Pers Mahasiswa Pena Muda, KIMURA(Keluarga Islam Mahasiswa Ubhara Jaya), Persatuan Mahasiswa Kristen(PMK) dan Resimen Mahasiswa (MENWA). Untuk kegiatan UKM olahraga terdapat basket, volly, badminton, futsal, Bela diri pencak silat dan E-sport. Terdapat Komunitas di kampus ubhara jaya ini yaitu Google Developer Student Club serta pusat olahraga yang terdapat di Program Studi Pendidikan Kepelatihan Olahraga"]
+    },
+    {
+      "tag": "info_kampus_organisasi",
+      "patterns":[
+        "Organisasi mahasiswa apa saja yang ada di universitas bhayangkara jakarta raya?",
+        "Organisasi apa saja yang terdapat di Ubhara Jaya?",
+        "Apakah ada organisasi mahasiswa yang terdapat di Ubhara Jaya?"
+      ],
+      "responses":["Kampus Universitas Bhayangkara Jakarta Raya ini terdapat beberapa organisasi mulai dari tingkat Universitas, Fakultas hingga di luar kampus. Seperti Dewan Perwakilan Mahasiswa,Badan Eksekutif Mahasiswa Universitas Kabinet Daya Juang, Badan Eksekutif Fakultas Hukum, Badan Eksekutif Mahasiswa Fakultas Hukum, Badan Eksekutif Mahasiswa Fakultas Teknik, Badan Eksekutif Mahasiswa Fakultas Ekoomi dan Bisnis, Badan Eksekutif Mahasiswa Fakultas Ilmu Komunikasi, Badan Eksekutif Mahasiswa Ilmu Pendidikan, Badan Eksekutif Mahasiswa Fakultas Fsikologi dan Badan Eksekutif Mahasiswa Fakultas Ilmu Komputer. Ditingkat Fakultas terdapat organisasi mahasiswa yang di naungi oleh Badan Eksekutif yaitu terdapat Himpunan Mahasiswa Teknik Lingkungan, Hiampunan Mahasiswa Teknik Perminyakan, Himpunan Mahasiswa Teknik Industri, Himpunan Mahasiswa Teknik Kimia,Himpunan Manajemen Ubhara ( himmara), Himpunan Akuntansi (himakuubhara), Himpunan Mahasiswa PGSD dan Himpunan Pendidikan Kepelatihan Olahraga. Untuk organisasi luar kampus terdapat Himpunan Mahasiswa Islam UBJ  dan GMNI(Gerakan Mahasiswa Nasional Indonesia) Komisirat Universitas Bhayangkara Jakarta Raya"]
+    },
+    {
+      "tag": "info_kampus_faskes",
+      "patterns":[
+        "Apakah ada fasilitas kesehatan yang tersedia di universitas bhayangkara jakarta raya?",
+        "Apakah ada PASKES di Ubhara Jaya?",
+        "Apakah tersedia UKS di Ubhara Jaya?"
+      ],
+      "responses":["Universitas Bhayangkara Jakarta Raya selain memiliki fasilitas perpustakaan, masjid dan lainnya, juga terdapat layanan kesehatan yang bernama klinik UBHARA dengan tenaga medis yang terpercaya yang siap membantu masyarakat kampus untuk mendapatkan layanan medis secara merata."]
+    },
+    {
+      "tag":"info_kampus_pengaduan",
+      "patterns":[
+        "Bagaimana sistem penanganan pengaduan dan saran mahasiswa di universitas bhayangkara jakarta raya?",
+        "fasilitas apa yang di sediakan jika ingin memberikan saran?",
+        "Apakah ada tempat khusus untuk pengaduan dan saran dari mahasiswa?"
+      ],
+      "responses":["Terdapat kotak saran mahasiswa atau bisa ke biro mahasiswa"]
+    },
+    {
+      "tag" : "info_kampus_double_degree",
+      "patterns":[
+        "Apakah ada program double degree di universitas bhayangkara jakarta raya?",
+        "Program double degree"
+      ],
+      "responses":["Saat ini kampus Universitas Bhayangkara Jakarta Raya ini belum menyediakan program double degree"]
+    },
+    {
+      "tag":"info_kampus_pertukaran_mahasiswa",
+      "patterns":[
+        "Apakah ada program pertukaran pelajar dengan universitas di luar negeri?",
+        "Apakah ada program IISMA?"
+      ],
+      "responses":["Universitas Bhayangkara Jakarta Raya sudah bekerja sama dengan kemedikbudristek dan program kampus merdeka dimana pada program tersebut terdapat kegiatan internasional seperti IISMA"]
+    },
+    {
+      "tag":"info_kampus_daftar_pertukaran_mahasiswa",
+      "patterns":[
+        "Bagaimana proses pengajuan program pertukaran pelajar di universitas bhayangkara jakarta raya?",
+        "Apa saja syarat mengikuti pertukaran pelajar?",
+        "Bagaimana prosedur untuk mendaftar program pertukaran pelajar?"
+      ],
+      "responses":["Untuk dapat mengikuti kegiatan pertukaran pelajar mahasiswa cukup menyiapkan akun kampus merdeka di website kampus merdeka dan dapat langsung mendaftarkan diri, namun ada beberapa persayaratan yang harus disiapkan, yang bisa di lihat pada laman https://kampusmerdeka.kemdikbud.go.id/"]
+    },
+    {
+      "tag": "info_kampus_kipk",
+      "patterns":[
+        "Apakah Universitas Bhayangkara Jakarta Raya menyediakan program beasiswa KIPK bagi calon mahasiswa baru?",
+        "Apakah ada program beasiswa KIPK?"
+      ],
+      "responses":["Universitas Bhayangkara Jakarta Raya menyediakan program Kipk bagi setiap calon mahasiswa yang memenuhi persyaratan"]
+    },
+    {
+      "tag":"fakultas_akreditasi_prodi",
+      "patterns":[
+        "Bagaimana akreditasi pada setiap Prodi di universitas bhayangkara jakarta raya ?",
+        "Apa saja akreditasi pada setiap prodi di ubhara jaya?"
+      ],
+      "responses":["Saat ini Program Studi di Universitas Bhayangkara Jakarta Raya terbagi berbagai prodi pada Ilmu Hukum terakreditasi B Berdasarkan Surat Keputusan BAN-PT No. 749/SK/BAN-PT/Akred/S/IV/2019 yang berlaku sampai dengan 09 April 2024. Pada program studi teknik terakreditasi “B” berdasarkan SK BAN-PT, Nomor : 816/SK/BAN-PT/Akred/S/IV/2019 tanggal 9 April 2019, Program Studi Teknik Kimia, terakreditasi “B” berdasarkan SK BAN-PT, Nomor : 1824/SK/BAN-PT/Akred/S/VII/2018 tanggal 17 Juli 2018, Program Studi Teknik Lingkungan, terakreditasi “B” berdasarkan SK BAN-PT, Nomor : 1825/SK/BAN-PT/Akred/S/V/2019 tanggal 28 Mei 2019, Program Studi Teknik Perminyakan, terakreditasi “Akreditasi Baik” berdasarkan SK BAN-PT, Nomor : 6183/SK/BAN-PT/Ak.KP/S/IX/2022 tanggal 14 September 2022, Program Studi Akuntansi (S1) terakreditasi B,Program Studi Manajemen (S1) terakreditasi B, Program Studi Magister Manajemen (S2) terakreditasi B,Program Studi Psikologi terakreditasi B berdasarkan keputusan BAN-PT No.668/SK/BAN-PT/Akred/PT/VII/2015 sampai dengan 04 Juli 2020,Program Studi Informatika terakreditasi B berdasar Keputusan BAN-PT No.6326/SK/BAN-PT/Ak-PNB/S/X/2020 tanggal 07 Oktober 2020"]
+    },
+    {
+      "tag":"fakultas_prodi",
+      "patterns":[
+        "Program Studi apa saja yang tersedia di universitas bhayangkara jakarta raya ?",
+        "Berapa banyak program studi yang tersedia?",
+        "apa saja program studi yang tersedia?"
+      ],
+      "responses":["Pada kampus 2 Universitas Bhayangkara Jakarta Raya terdapat 12 Program Studi yaitu S1 Ilmu Hukum, S1 Teknik Industri, S1 Teknik Kimia, S1 Teknik Lingkungan, S1 Teknik Perminyakan, S1 Akuntansi, S1 Manajemen, S1 Ilmu Komunikasi, S1 Psikologi, S1 Pendidikan Guru Sekolah Dasar, S1 Pendidikan Kepelatihan Olahraga dan S1 Informatika."]
+    },
+    {
+      "tag":"fakultas_prodi_minat_tinggi",
+      "patterns":[
+        "Program studi apa yang paling diminati untuk mendaftar pada Universitas Bhayangkara Jakarta Raya?",
+        "Prodi apa yang memiliki mahasiswa terbanyak?",
+        "prodi apa yang paling favorite?"
+      ],
+      "responses":["Saat ini program studi yang paling diminati ialah Program Studi Manajemen pada Universitas Bhayangkara Jakarta Raya"]
+    },
+    {
+      "tag":"fakultas_fasilitas",
+      "patterns":[
+        "Fasilitas apa saja yang disediakan di setiap fakultas Universitas Bhayangkara Jakarta Raya?",
+        "Ruangan apa saja yang tersedia di setiap fakultas?"
+      ],
+      "responses":["Di Universitas Bhayangkara Jakarta Raya saat ini terdapat beberapa fasilitas yaitu, laboratorium, ruangan kelas, ruangan dosen, ruangan fakultas, ruangan dekanat yang ber-ac di setiap fakultasnya, serta terdapat fasilitas lift di fakultas Ekonomi Bisinis dan Ilmu Pendidikan "]
+    },
+    {
+      "tag":"fakultas_jumlah",
+      "patterns":[
+        "Ada berapa jumlah fakultas yang ada di Kampus Universitas Bhayangkara Jakarta Raya?",
+        "Apa aja fakultas yang tersedia"
+      ],
+      "responses":["Di universitas Bhayangkara Jakarta raya terdapat 7 Fakultas yaitu Hukum, Ekonomi & Bisnis,Teknik ,Psikologi ,Ilmu Komunikasi, Ilmu Pendidikan, Ilmu Komputer"]
+    },
+    {
+      "tag":"fakultas_jumlah_prodi",
+      "patterns":[
+        "Di kampus 1 Universitas Bhayangkara Jakarta Raya terdapat berapa program studi ?",
+        "Apa saja program studi yang ada di kampus 1?"
+      ],
+      "responses":["Terdapat 5 program studi pada kampus 1 yaitu Prodi Magister Hukum, prodi Magister Manajemen, prodi Magister Akuntasi, prodi Magister Ilmu Komunikasi dan prodi Doktor Ilmu Manajemen"]
+    },
+    {
+      "tag":"fakultas_SKS",
+      "patterns":[
+        "Sistem sks yang ada di Universitas Bhayangkara Jakarta Raya, apakah mengunakan paketan atau pengambilan secara pribadi?",
+        "Bagaimana sistem sks yang tersedia?"
+      ],
+      "responses":["Untuk sistem SKS di kampus ubhara jaya ini memiliki aturan berbeda dari setiap fakultas namun di fakultas Ilmu Komputer sistem SKS yang dilakukan pada semester 1 - 2 SKS paketan dan di semester 3 - 8 SKS yang di ambil secara mandiri"]
+    },
+    {
+      "tag":"fakultas_kelas",
+      "patterns":[
+        "Apakah ada kelas reguler pagi dan sore pada setiap fakultas ?",
+        "Terdapat kelas apa saja di Ubhara Jaya?",
+        "Fakultas apa saja yang memiliki kelas pagi,sore dan malam?"
+      ],
+      "responses":["Setiap Fakultas memiliki kelas pagi(kelas A), Sore(B1), Malam(B2) dengan rincian sebagai Berikut : Fakultas Hukum Prodi Ilmu Hukum terdapat kelas A,B1,B2, Fakultas Teknik prodi teknik Industr terdadapat 3 kelas yaitu A,B1 dan B2, pada prodi teknik Kimia,Lingkungan dan perminyakan terdapat dua kelas yaitu A dan B1, Fakultas ilmu Komputer prodi Informatika terdapat 3 kelas A,B1,B2, Fakultas Ekonomi & Bisnis prodi Akuntansi dan Manajemen memiliki tiga kelas A,B1 dan B2, Fakultas Ilmu Komunikasi prodi Ilmu Komunikasi terdapat dua kelas yaitu A dan B1 Fakultas Psikologi prodi Ilmu Psikologi terdapat 2 kelas yaitu A dan B1 dan pada Fakultas Ilmu Pendidikan masing - masing prodi memiliki dua kelas yaitu A dan B1. Kelas yang tersedia di setiap prodi memiliki keterangan kelas A dilaksanakan pada setiap Hari Senin - Jum'at pukul 08.00 - 16.00 WIB, Kelas B1 dilaksanakan pada setiap hari Senin - Jum'at pukul 16.30 - 21.30 WIB dan Kelas B2 dilaksanakan pada setiap hari Rabu - Jum'at pukul 19.00 - 21.30 WIB dan Sabtu pukul 08.00 - 21.30 WIB"]
+    },
+    {
+      "tag":"pendaftaran",
+      "patterns":[
+        "Bagaimana prosedur pendaftaran PMB di universitas bhayangkara jakarta raya?",
+        "apa saja syarat pendaftaran PMB?",
+        "Bagaimana tata cara mendaftar sebagai mahasiswa baru S1?"
+      ],
+      "responses":["Berikut langkah - langkah untuk melakukan pendaftaran menjadi mahasiswa baru di Universitas Bhayangkara Jakarta Raya :\n 1. Melakukan registrasi pendaftaran online. :\n 2. Melakukan pengisian formulir yang diisikan lewat online. :\n 3. Mendapatkan Username dan Password untuk login Akun Pendaftaran. :\n 4. Melakukan pembayaran biaya pendaftaran melalui transfer ke Nomor Rekening yang disediakan di aplikasi. :\n 5. Mengunggah (upload) berkas persyaratan pendaftaran (bukti transfer pembayaran pendaftaran, pass foto berwarna background merah, kartu Identitas (KTP/Passport), Raport Semester 4 & 5, Ijasah/Traskrip Nilai). :\n 6. Mengisi seluruh isian Biodata Diri dengan benar pada menu Data Pendaftaran. :\n 7. Mencetak kartu Pendaftaran"]
+    },
+    {
+      "tag":"pendaftaran_syarat_utama",
+      "patterns":[
+        "Apa persyaratan utama untuk mendaftar di Universitas Bhayangkara Jakarta Raya?",
+        "apa langkah pertama yang perlu dilakukan untuk mendaftar menjadi mahasiswa baru?"
+      ],
+      "responses":["Melakukan Pendaftaran secara online melalui website berikut : https://pmb.ubharajaya.ac.id/"]
+    },
+    {
+      "tag":"pendaftaran_persyaratan",
+      "patterns":[
+        "Apa saja persyaratan umum yang harus dipenuhi untuk mendaftar di universitas bhayangkara jakarta raya?",
+        "Bagaimana prosedur yang harus dipenuhi untuk mendaftar menjadi mahasiswa baru?",
+        "Bagaimana proses pendaftaran ?"
+      ],
+      "responses":["Jika belum memiliki akun pendaftaran silahkan melakukan registrasi pendaftaran online sesuai petunjuk diatas. Jika sudah memiliki akun pendaftaran silahkan melakukan login menggunakan Username dan Password yang telah diterima saat melakukan registrasi pendaftaran online, Nama harus sesuai dengan ijazah/KTP/Akta Kelahiran, Wajib mencantumkan nomor NIK yang benar sesuai KTP yang dimiliki saat melakukan registrasi pendaftaran online,Harus menggunakan email yang aktif, karena link verifikasi dikirimkan melalui email"]
+    },
+    {
+      "tag":"pendaftaran_deadline",
+      "patterns":[
+        "Kapan deadline pendaftaran PMB tahun ini?",
+        "kapan pendaftaran terakhir?"
+      ],
+      "responses":["Berada pada Gelombang Ekstra yang berkhir pada tanggal 18 Agustus 2023"]
+    },
+    {
+      "tag":"pendaftaran_gelombang",
+      "patterns":[
+        "Ada berapa gelombang pendaftaran yang ada untuk mahasiswa baru universitas bhayangkara jakarta raya?",
+        "Dimulai tanggal berapa untuk mendaftar menjadi mahasiswa baru?",
+        "Setiap gelombang dimulai tanggal berapa dan kapan terakhir pendaftaran?"
+      ],
+      "responses":["Gelombang 1 pendaftaran di mulai dari 1 November - 30 Desember 2022 , gelombang 2 pada tgl 31 Desember 2022 - 24 Februari 2023, gelombang 3 pendaftaran dimulai tgl 25 Februari - 28 April 2023, gelombang 4 dimulai tgl 29 April - 11 Agustus 2023, gelombang ekstra 12 - 18 Agustus 2023"]
+    },
+    {
+      "tag":"pendaftaran_ujian",
+      "patterns":[
+        "Apakah ada ujian masuk atau tes seleksi untuk PMB di Universitas Bhayangkara Jakarta Raya?",
+        "apakah terdapat tes untuk menjadi mahasiswa baru?"
+      ],
+      "responses":["Ada,tes akademik yang dilakukan secara online"]
+    },
+    {
+      "tag":"pendaftaran_jenis_ujian",
+      "patterns":[
+        "Apa saja jenis ujian yang biasanya dilakukan dalam proses seleksi PMB?",
+        "Tes apa saja yang akan dilakukan oleh mahasiswa baru?"
+      ],
+      "responses":["Tes akademik setelah jadi mahasiswa akan ada tes toefl dan tes narkoba"]
+    },
+    {
+      "tag":"pendaftaran_nilai",
+      "patterns":[
+        "Apa yang dinilai dalam tes seleksi PMB di universitas bhayangkara jakarta raya?",
+        "Nilai apa saja yang dilihat pada saat seleksi berlangsung?"
+    ],
+      "responses":["Penilaian dilihat dari nilai tes akademik berbasis online dan nilai rata - rata raport"]
+    },
+    {
+      "tag":"pendaftaran_sistem_nilai",
+      "patterns":[
+        "Bagaimana sistem pengumuman hasil seleksi PMB di universitas bhayangkara jakarta raya?",
+        "Dimana pengumuman kelulusan bisa dilihat?",
+        "Apakah pengumuman kelulusan dapat dilihat di website PMB Ubhara Jaya?"
+      ],
+      "responses":["Ketika sudah di nyatakan lulus ada surat keputusan rektor di umumkan di  akun pendaftaran, web Ubhara Jaya dan mading kampus"]
+    },
+    {
+      "tag":"pendaftaran_biaya",
+      "patterns":[
+        "Apakah ada biaya pendaftaran yang harus bayar?",
+        "Berapa biaya untuk pendaftaran ?",
+        "Bagaimana dengan sistem pembayaran pendaftaran?"
+      ],
+      "responses":["Terdapat biaya formulir pendaftaran dengan nonimal Rp.300.000 ditransfer ke Bank BRI Nomor Rekening 1211-01-000094-30-6 a.n Universitas Bhayangkara Jakarta Raya"]
+    },
+    {
+      "tag":"pendaftaran_berkas",
+      "patterns":[
+        "Apa saja dokumen yang diperlukan untuk pendaftaran di Universitas Bhayangkara Jakarta Raya?",
+        "Apa saja berkas yang perlu disiapkan?",
+        "Bagaimana prosedur berkas yang perlu diperhatikan?"
+      ],
+      "responses":["Bagi mahasiswa S1 yang ingin mendaftar menjadi masyarakat Universitas Bhayangkara Jakarta Raya terdapat berkas yang harus disiapkan yaitu pass foto berwarna dengan background merah, Kartu Identitas(KTP/Passport),Raport semester 4 & 5, Ijazah/transkip nilai dan bukti transfer pembayaran pendaftaran, Kartu Keluarga, Akte Kelahiran dan Kartu Tanda Anggota bagi anggota POLRI"]
+    },
+    {
+      "tag":"pendaftaran_berkas_sertifikat",
+      "patterns":[
+        "Apakah perlu melampirkan sertifikat prestasi akademik atau non-akademik?",
+        "Apakah ada nilai plus untuk mengirimkan sertifikat akademin atau non-akademik?"
+      ],
+      "responses":["Untuk melampirkan sertfikat akademik dan non-akademik itu tidak wajib jika anda memiliki sertfikat tersebut bisa dilampirkan saat mendaftar"]
+    },
+    {
+      "tag":"pendaftaran_tes",
+      "patterns":[
+        "Apakah ada tes atau wawancara yang harus dijalani sebagai bagian dari proses pendaftaran?",
+        "Apakah terdapat tes setelah pendaftaran?",
+        "Setelah melakukan pendaftaran apa proses prosedur selanjutnya"
+      ],
+      "responses":["Setelah melakukan pendaftaran anda akan mendapatkan kartu ujian yang dilaksanakan sesuai jadwal yang sudah ditentukan dan terdapat tes urine setelah diterima di kampus ini untuk mendeteksi apakah mahasiswa dan mahasiswi memiliki riwayat narkoba namun untuk kegiatan wawancara di kampus kami tidak melaksanakannya"]
+    },
+    {
+      "tag":"pendaftaran_mahasiswa_pindahan",
+      "patterns":[
+        "Apakah lulusan perguruan tinggi lain dapat mengajukan pendaftaran sebagai mahasiswa pindahan?",
+        "Apakah Ubhara Jaya menerima mahasiswa pindahan ?",
+        "Apa saja yang perlu di perhatikan untuk mengajukan sebagai mahasiswa pindahan?"
+      ],
+      "responses":["Lulusan perguruan tinggi manapun dapat melakukan pendaftaran sebagai mahasiswa pindahan, namun perlu diperhatikan bahwa perguruan tinggi sebelumnya memiliki akreditasi yang sama dengan yang ada di Universitas Bhayangkara Jakarta Raya"]
+    },
+    {
+      "tag":"pendaftaran_jalur_khusus",
+      "patterns":[
+        "Apakah ada jalur pendaftaran khusus bagi calon mahasiswa berprestasi Non-akademik?",
+        "Apakah calon mahasiswa berprestasi non-akademik bisa mendaftar?"
+      ],
+      "responses":["Ada jalur khusus yang disediakan bagi calon mahasiswa berprestasi Non-akademik seperti atlet yang bisa di urus langsung oleh Fakultas Ilmu Pendidikan Program Studi Pendidikan Kepelatihan Olahraga"]
+    },
+    {
+      "tag":"pendaftaran_jalur_undangan",
+      "patterns":[
+        "Apakah ada jalur Undangan atau Ujian Tulis Bersama (UTB) di Universitas Bhayangkara Jakarta Raya?",
+        "Apakah Ubhara Jaya memiliki jalur undangan?",
+        "apakah ubhara terdapat ujian tulis bersama?"
+      ],
+      "responses":["Untuk jalur Undangan ataupun Ujian Tulis Bersama (UTB) saat ini belum ada"]
+    },
+    {
+      "tag":"pendaftaran_siswa_luardki",
+      "patterns":[
+        "Apakah ada jalur pendaftaran khusus untuk lulusan SMA/SMK di luar DKI Jakarta?",
+        "Apakah calon mahasiswa baru dari luar DKI dapat mendaftar?"
+      ],
+      "responses":["Tidak ada jalur khusus, calon mahasiswa dari luar DKI Jakarta juga diperbolehkan untuk mendaftar di Universitas Bhayangkara Jakarta Raya"]
+    },
+    {
+      "tag":"pendaftaran_ulang_s1",
+      "patterns":[
+        "Berkas apa saja yang harus dipersiapkan saat mendaftar ulang bagi mahasiswa S1?",
+        "Apa saja syarat untuk mendaftar ulang bagi calon mahasiswa S1?"
+      ],
+      "responses":["Bagi mahasiswa baru dapat upload data/ daftar ulang dengan berkas yaitu :\n 1.Scan Surat keterangan lulus (Bagi yang belum ada ijazah) :\n 2.Scan BPJS Kesehatan (bagi yang sudah memiliki) :\n 3. Scan Surat Pernyataan Mahasiswa dengan format yang di sediakan di laman pmb.ubharajaa.ac.id"]
+    },
+    {
+      "tag":"pendaftaran_ulang_s2",
+      "patterns":[
+        "Bagi mahasiswa baru S2 berkas apa saja yang harus di siapkan?",
+        "Apa saja syarat untuk mendaftar ulang bagi calon mahasiswa S2?"
+      ],
+      "responses":["Syarat daftar ulang atau upload data program magister(S2) yaitu, Scan Transkrip, (Asli),Scan Kartu Keluarga, Scan Akte Kelahiran, Scan KTA (Khusus Polri) / KTP, Scan BPJS kesehatan (bagi yang sudah memiliki),Scan Surat pernyataan Mahasiswa"]
+    },
+    {
+      "tag":"pendaftaran_jadwal_informasi",
+      "patterns":[
+        "Kapan jadwal informasi pendaftaran di Universitas Bhayangkara Jakarta raya ini ?",
+        "Setiap hari apa saja informasi pendaftaran?"
+      ],
+      "responses":["Informasi Pendaftaran buka setiap hari kerja Senin s.d Jum'at pukul 08.00 - 16.00 WIB"]
+    },
+    {
+      "tag":"ujian",
+      "patterns":["Ujian apa saja yang terdapat di kampus universitas bhayangkara jakarta raya ?"],
+      "responses":["Ujian yang tersedia ialah ujian tes akademik"]
+    },
+    {
+      "tag":"tes_urine",
+      "patterns":[
+        "Apakah tes narkoba di universitas bhayangkara jakarta raya ini di wajibkan ?",
+        "Apakah di ubhara jaya mewajibkan tes narkoba?"
+      ],
+      "responses":["Wajib, karena kampus ubhara ini memiliki prinsip kampus anti narkoba jika ada mahasiswa dinyatakan positif narkoba harus melaksanakan rehabilitasi terlebih dahulu"]
+    },
+    {
+      "tag":"ujian_prosedur",
+      "patterns":[
+        "Bagaimana prosedur mengikuti ujian di kampus universitas bhayangkara jakarta raya ini ?",
+        "Apa yang harus di persiapkan untuk mengikuti ujian?"
+      ],
+      "responses":["Pertama harus terdaftar sebagai calon mahasiswa, serta membayar biaya pendaftaran dan mengirimkan berkas yang sudah di tentukan agar dapat lanjut ke tahap ujian di Universitas Bhayangkara Jakarta Raya."]
+    },
+    {
+      "tag":"ujian_pakaian",
+      "patterns":[
+        "Apakah ada pakaian khusus yang harus digunakan saat melaksanakan ujian ?",
+        "Apakah ada syarat khusus dalam berpakaian saat melaksanakan ujian?"
+      ],
+      "responses":["Untuk mengikuti ujian terdapat pakaian yang ditentukan, untuk Laki - Laki Celana Bahan hitam dan kemeja putih untuk Perempuan rok bahan hitam dan kemeja/lengan panjang putih."]
+    },
+    {
+      "tag":"ujian_tulis",
+      "patterns":[
+        "apa ada seleksi tulis untuk masuk ke universitas universitas bhayangkara jakarta raya ?",
+        "apakah ada ujian tertulis untuk masuk Ubhara jaya"
+    ],
+      "responses":["Ada, dengan jadwal ujian sesuai anda mendaftar di laman PMB Universitas Bhayangkara Jakarta Raya"]
+    },
+    {
+      "tag":"ujian_persiapan",
+      "patterns":[
+        "apa yang harus di persiapkan saat akan melaksanakan ujian di universitas bhayangkara jakarta raya?",
+        "apa saja proses yang diperlu diperhatihan saat akan melaksanakan ujian"
+      ],
+      "responses":["Mencetak kartu ujian yaang sudah tersedia saat anda berhasil mendaftar dan membawa alat tulis yang diperlukan serta menggunakan pakaian rapi dan sopan diharapkan hadir 30 menit sebelum ujian dimulai"]
+    },
+    {
+      "tag":"proses_seleksi_durasi",
+      "patterns":[
+        "Berapa hari proses seleksi dan ujian yang di laksanakan di universitas bhayangkara jakarta raya?",
+        "Berapa lama proses seleksi dan ujian yang akan dilaksanakan?"
+      ],
+      "responses":["Untuk proses seleksi dan ujian hanya dilaksanakan satu hari"]
+    },
+    {
+      "tag":"biaya",
+      "patterns":[
+        "Berapa biaya pendaftaran untuk PMB di universitas bhayangkara jakarta raya?",
+        "Berapa nominal yang harus dibayarkan untuk mendaftar?"
+      ],
+      "responses":["Untuk biaya pendaftaran atau pembelian formulir sebesar Rp.300.000"]
+    },
+    {
+      "tag":"biaya_kuliah",
+      "patterns":[
+        "Bagaimana sistem pembayaran biaya kuliah di universitas bhayangkara jakarta raya?",
+        "Ditransfer melalui apa untuk biaya kuliah?"
+      ],
+      "responses":["Melalui transfer ke briva yang sudah di tentukan saat pertama kali anda mendaftar"]
+    },
+    {
+      "tag":"biaya_persemester",
+      "patterns":[
+        "Bagaimana biaya persemester di universitas bhayangkara jakarta raya ?",
+        "Ditentukan melalui apakah biaya persemester di Ubhara Jaya"
+    ],
+      "responses":["Biaya persemester dapat ditentukan dari prodi yang anda pilih "]
+    },
+    {
+      "tag":"biaya_persemester_fakultas",
+      "patterns":[
+        "Apakah di setiap fakultas memiliki biaya yang berbeda ?",
+        "Bagaimana rincian biaya pada setiap fakultas?",
+        "Dapat dilihat dimanakan rincian biaya pada setiap fakultas?"
+      ],
+      "responses":["Tentu saja, anda dapat melihat rincian biayanya pada laman http://bit.ly/BrosurPMBS1UBJ2023"]
+    },
+    {
+      "tag":"biaya_potongan",
+      "patterns":[
+        "Apakah ada potongan biaya bagi orang tua mahasiswa yang bekerja sebagai TNI/Polri",
+        "Apakah bagi calon mahasiswa yang anggota keluarganya bekerja sebagi TNI/POLRI akan medapatkan keringanan biaya?"
+      ],
+      "responses":["Terdapat potongan 50% dari BPP(Biaya perkuliahan persemester) bagi orang tua mahasiswa yang merupakan anggota POLRI/PNS POLRI aktif,Pensiunan POLRI dan PNS POLRI dengan menunjukkan kartu anggota"]
+    },
+    {
+      "tag":"biaya_daftar_ulang",
+      "patterns":[
+        "Bagaimana biaya pendaftaran ulang jika sudah dinyatakan lulus?",
+        "Bagaimana prosedur yan perlu dilakukan terhadap pendaftaran ulang?"
+      ],
+      "responses":["Untuk biaya pendaftaran ulang di kirimkan ke Nomor Rekening 1211-01-000094-30-6 a.n Universitas Bhayangkara Jakarta Raya, minimal pembayaran Rp.1.000.000"]
+    },
+    {
+      "tag":"event",
+      "patterns":[
+        "Apakah di kampus universitas bhayangkara jakarta raya ini memiliki kegiatan besar ?",
+        "event apa saja yang terdapat di Ubhara Jaya?"
+    ],
+      "responses":["Universitas Bhayangkara Jakarta Raya sering mangadakan kegiatan besar seperti seminar, festival dan lain sebagainya. Contohnya Bharafest dan Commfest"]
+    },
+    {
+      "tag":"event_rutin",
+      "patterns":[
+        "Kegiatan rutin apa yang sering dilaksanakan di kampus universitas bhayangkara jakarta jaya?",
+        "Event apa yang menjadi rutinitas yang ada di Ubhara Jaya?"
+      ],
+      "responses":["Kegiatan yang sering atau rutin dilakukan di Universitas Bhayangkara terdapat kegiatan PKKMB,Porseni(Pekan Olahraga dan Seni) dan Donor darah"]
+    },
+    {
+      "tag":"event_lomba",
+      "patterns":[
+        "apakah di universitas bhayangkara jakarta raya sering melaksanakan kegitan perlombaan ?",
+        "apakah di ubhara jaya terdapat event perlombaan?"
+    ],
+      "responses":["Kegiatan perlombaan sering diadakan oleh setiap fakultas dengan berbagai perlombaan mulai dari seni, olahraga sampai kegiatan lomba 17 Agustus"]
+    },
+    {
+      "tag":"event_panitia",
+      "patterns":[
+        "siapa saja yang menjadi panita penyelenggara dalam event di universitas bhayangkara jakarta jaya?",
+        "siapa saja yang menjadi pengelola setiap event yang ada di ubhara jaya?"
+      ],
+      "responses":["Kegiatan tersebut biasa dilaksanakan oleh Universitas, Badan Eksekutif Mahasiswa, Himpunan Mahasiswa atau Unit Kegiatan Mahasiswa yang terdapat di Ubhara Jaya"]
+    },
+    {
+      "tag":"contact_person",
+      "patterns":[
+        "apakah ada contact person yang bisa dihubungi saat terdapat kesalahan saat mengisi data?",
+        "Jika terdapat kesalahan data, dapat menghubungi siapa?"
+      ],
+      "responses":["Anda dapat menghubungi Hotline pmb (whatsapp/+62812-4180-0100) dan email kampus Universitas Bhayangkara Jakarta Raya(info@ubharajaya.ac.id)"]
+    },
+    {
+      "tag":"contact_person_fakultas",
+      "patterns":["Apakah terdapat Contact person pada setiap Fakultas?"],
+      "responses":["Ada, untuk mengakses contact person tersebut bisa hubungi koordinator setiap fakultas"]
+    },
+    {
+      "tag":"magister_persyaratan",
+      "patterns":[
+        "Persyaratan apa saja yang harus di siapkan untuk mendaftar menjadi mahasiswa baru magister ?",
+        "Apa saja hal yang perlu diperhatikan saat mendaftar menjadi mahasiswa baru magister?"
+    ],
+      "responses":["Registrasi penerimaan mahasiswa baru program magister (S2) yaitu, Membeli Formulir Pendaftaran untuk S2 Rp. 400.000, di Transfer Ke BRIVA yang telah diterima pada saat registrasi,Bagi Mahasiswa Pindahan dikenakan biaya konversi, Mengisi formulir pendaftaran online pada Web : pmb.ubharajaya.ac.id, Upload Scan Pas Foto berwarna (kemeja putih berdasi, background merah)"]
+    },
+    {
+      "tag":"magister_fakultas",
+      "patterns":[
+        "Fakultas dan prodi apa yang menyediakan program magister ?",
+        "fakultas apa saja yang memiliki program magister?",
+        "prodi apa saja yang menyediakan program magister?"
+      ],
+      "responses":["Fakultas Ekonomi dan Bisnis dengan prodi Magister Manajemen (S2) dan Magister Akuntansi (S2) , Fakultas Hukum dengan Prodi Magister Hukum(S2), Fakultas Ilmu Komunikasi ProdiMagister Ilmu Komunikasi(S2)"]
+    },
+    {
+      "tag":"doktor",
+      "patterns":[
+        "apakah di universitas bhayangkara jakarta raya terdapat program doktor ?",
+        "fakultas apa yang meyediakan program doktor?",
+        "prodi apa yang menyediakan program doktor"
+      ],
+      "responses":["Universitas Bhayangkara Jakarta Raya menyediakan program studi doktor di Fakultas  Ekonomi dan Bisnis dengan Program Studi Doktor Ilmu Manajemen"]
+    },
+    {
+      "tag":"doktor_jadwal",
+      "patterns":[
+        "Bagaimana jadwal penerimaan mahasiswa baru bagi program magister dan doktor ?",
+        "Kapan dimulainya pendaftaran mahasiswa baru program magister dan doktor?"
+      ],
+      "responses":["Jadwal pendaftaran bagi mahasiswa program magister dan doktor terdapat dua gelombang yaitu Gelombang 1 dimulai pada tanggal 01 November  2022 - 30 Desember 2022 Gelombang 2 dimulai pada tanggal 31 Desember 2022 - 24 Februari 2023, Gelombang 3 dimulai pada tanggal 25 Februari - 28 April 2023, Gelombang 4 dimulai pada tanggal 29 April - 11 Agustus 2023 da Gelombang Ekstra pada tanggal 12 Agustus - 18 Agustus 2023"]
+    },
+    {
+      "tag":"doktor_persyaratan",
+      "patterns":[
+        "Apa saja persyaratan umum yang harus di persiapkan bagi mahasiswa pendaftar program doktoral ?",
+        "persyaratn apa saja yang perlu di perhatikan bagi mahasiswa magister?"
+      ],
+      "responses":["Berkas yang harus di siapkan bagi mahasiswa baru program doktor Foto & KTP, KK & Akta, Ijasah S1 & S2,Transkip S1 & S2, Bukti data di PD Dikti, Akreditasi BAN PT Prodi Asal, Bagi warga negara asing yang telah mendapatkan persetujuan dari KEMENRISTEK DIKTI, Surat rekomendasi kelayakan akademik program doktor dari calon promotor, dan Rencana proposal disertasi"]
+    },
+    {
+      "tag":"masa_studi_s2_s3",
+      "patterns":[
+        "Berapa masa studi program magister dan doktoral di Ubhara Jaya ?",
+        "berapa lama masa studi program magister an doktor?"
+      ],
+      "responses":["Masa studi program magister menempuh 4 semester atau 2 tahun sedangkan pada program doktoral menempuh 6(enam) semester atau 3 tahun "]
+    },
+    {
+      "tag":"mahasiswa_internasional",
+      "patterns":[
+        "Apakah Universitas Bhayangkara Jakarta Raya ini menerima mahasiswa internasional ?",
+        "Bagaimana proses pendaftaran mahasiswa internasional untuk menjadi mahasiswa ubhara jaya?"
+      ],
+      "responses":["Menerima, dengan proses pendaftaran yang sama seperti mahasiswa di dalam negeri"]
+    },
+    {
+      "tag":"mahasiswa_internasional_berkas",
+      "patterns":[
+        "Bagaimana persyaratan yang harus disiapkan bagi mahasiswa internasional yang akan medaftar di Universitas Bhayangkara Jakarta Raya",
+        "Prosedur apa saja yang harus diperhatikan untuk mendaftar di ubhara jaya bagi mahasiswa internasional?",
+        "Berkas apa saja yang harus di siapkan bagi mahasiswa internasional?"
+      ],
+      "responses":["Terdapat beberapa berkas yang perlu dipersiapkan seperti izin tinggal, persetujuan nilai oleh dikti berhubungan dengan biro kerja sama baru ke biro pemasaran"]    
+    }
+  ]
+}
