@@ -48,7 +48,10 @@ Setelah selesai silahkan buka folder sudah di download di visual code
 silahkan running app.py dan ketikan flask running di terminal 
 ![Capture-1](https://github.com/irma119/chatbot-deployment-unichat/assets/110200862/ec0b0464-4fc5-425e-97fd-94a01e8ca593)
 silahkan klik link tersebut untuk melihat tampilan aplikasi 
+
 Note: "DIHARAPKAN SEMUA FILE DIBUAT SATU FOLDER JIKA INGIN MENDOWNLOAD FOLDER DIATAS SILAHKAN DI BAGIAN POJOK KANAN PILIH DOWNLOAD ZIP"
+
+![ini](https://github.com/irma119/chatbot-deployment-unichat/assets/110200862/0e5745ef-f27a-4e93-a60d-de3b30438b7f)
 
 ## Jika ingin mengetahui lebih dalam silahkan tonton video berikut 
 [![Alt text](https://img.youtube.com/vi/a37BL0stIuM/hqdefault.jpg)](https://youtu.be/a37BL0stIuM)  
